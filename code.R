@@ -5,3 +5,5 @@ iris %>%
   ggplot(aes(x = Sepal.Length)) + 
   geom_histogram(color = I("Black"))
 # add comment
+
+library(epiDisplay)
